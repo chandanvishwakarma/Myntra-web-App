@@ -1,0 +1,199 @@
+@import url("https://fonts.googleapis.com/css2?family=Akaya+Kanadaka&family=Delicious+Handrawn&family=Lora:ital,wght@1,400;1,500;1,600&family=Noto+Color+Emoji&family=Poppins:ital,wght@0,400;0,600;1,300;1,400;1,500;1,600&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+body {
+  background-color: white;
+}
+header {
+  background-color: white;
+  height: 80px;
+  width: auto;
+  box-shadow: 0px 0px 20px 1px rgb(140, 140, 140);
+  padding: 15px 38px;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+}
+.div1 {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 0px;
+  position: absolute;
+}
+.div1 a {
+  padding: 2px;
+  margin-top: 8px;
+  text-decoration: none;
+}
+
+.div1 a ul li sup{
+  color: red;
+}
+.div1 a ul li {
+  list-style-type: none;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: black;
+  font-size: 1vw;
+  font-weight: 600;
+  margin: 10px;
+  padding: 0px 5px;
+  padding-bottom: 0px;
+  padding-bottom: 28px;
+  border-bottom: 3px solid transparent;
+}
+.div1 a ul li:hover{
+  border-color: #ff4b75;
+  height: 10px;
+  width: 50px;
+  display: inline;
+}
+
+   .manu1{
+    position: absolute;
+    width: 70vw;
+    height: 450px;
+    padding: 10px;
+    z-index: 10;
+    background-color: whitesmoke;
+    margin-top: 65px;
+    margin-left: 80px;
+    display: none;
+    border: none;
+    list-style-type: none;
+  }
+  .div1>a+a>ul+.manu1:hover{
+    display: block;
+  } 
+   
+img {
+  position: relative;
+  height: 50px;
+  width: 100px;
+  margin-top: 0px;
+  margin-left: -40px;
+}
+.div2 {
+  display: flex;
+  width: 550px;
+  height: 45px;
+  margin-left: 700px;
+  margin-top: 5px;
+  border: 2px solid rgba(133, 126, 126, 0.404);
+  border-radius: 2px;
+}
+.div2 span {
+  position: absolute;
+  margin-top: 10px;
+  margin-left: 15px;
+}
+
+.div2 input {
+  margin-top: 3px;
+  margin-left: 50px;
+  height: 35px;
+  width: 400px;
+  text-align: left;
+  font-family: Poppins;
+  border: none;
+  border-style: none;
+  outline: none;
+}
+.div3 {
+  display: flex;
+}
+.div3 a ul span {
+  margin-left: 45px;
+}
+.div3 a ul .Bag {
+  margin-left: 28px;
+}
+.div3 a {
+  text-decoration: none;
+}
+.div3 a ul li {
+  list-style-type: none;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: black;
+  font-size: 1vw;
+  font-weight: 600;
+  padding: 0px 20px;
+  padding-bottom: 0px;
+  padding-bottom: 28px;
+  border-bottom: 3px solid transparent;
+}
+.div3 a ul i {
+  width: 35%;
+  display: block;
+  margin: auto;
+}
+
+/* css slider  */
+
+.Slider{
+  height: 500px;
+  width: 100%;
+  background-image: url(https://assets.myntassets.com/w_980,c_limit,fl_progressive,dpr_2.0/assets/images/2023/2/14/7cec9b95-a683-473c-aca8-cc510821b1cd1676394720493-Desktop-Banner.gif);
+}
+.Container2 h1{
+  text-transform: uppercase;
+  color: #3e4152;
+  letter-spacing: .15em;
+  font-size: 1.8em;
+  margin: 50px 0 10px 30px;
+  max-height: 5em;
+  font-weight: 700;
+  margin-top: 50px;
+}
+
+.Container2 .ROW1{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 50px;
+}
+.Container2 .ROW1 a ul li{
+ list-style-type: none;
+}
+.Container2 .ROW1 a ul li img{
+  position: relative;
+  height: 242px;
+  width: 184px;
+  margin-left: 2px;
+  border: none;
+}
+footer{
+  display: flex;
+  margin: 50px 150px;
+  justify-content: space-evenly;
+}
+.foot ul li{
+  list-style-type: none;
+  font-size: 10px;
+  margin: 15px;
+}
+.foot ul li img{
+  margin: 10px;
+  width: 130px;
+}
+.footx img{
+  position: relative;
+  height: 30px;
+  width: 20px;
+  margin: 10px 5px;
+  top: -10px;
+  left: 50px;
+}
+.footinner ul img{
+  position: absolute;
+  height: 40px;
+  width: 40px;
+  
+}
+
